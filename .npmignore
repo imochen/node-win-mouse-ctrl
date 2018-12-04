@@ -1,2 +1,4 @@
 test.js
 build/
+binding.gyp
+mouse.cpp

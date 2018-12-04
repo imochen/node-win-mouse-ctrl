@@ -1,10 +1,10 @@
 {
   "name": "win-mouse-ctrl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "mouse controller on windows.",
   "main": "index.js",
   "scripts": {
-    "build": "node-gyp configure && node-gyp build && copy .\\build\\Release\\addon.node .",
+    "build": "node-gyp configure && node-gyp build && cp build/Release/addon.node .",
     "test": "node test.js"
   },
   "repository": {

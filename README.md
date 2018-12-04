@@ -2,7 +2,7 @@
 
 Fork from [https://github.com/wshxbqq/node-win-mouse](https://github.com/wshxbqq/node-win-mouse)
 
-use `Nodejs 10.14.0` rebuild.
+build when postinstall.
 
 ## usege
 

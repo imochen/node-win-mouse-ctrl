@@ -1,0 +1,24 @@
+{
+  "name": "win-mouse-ctrl",
+  "version": "0.1.0",
+  "description": "mouse controller on windows.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node-gyp configure && node-gyp build && cp build/Release/addon.node .",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imochen/node-win-mouse-ctrl.git"
+  },
+  "keywords": [
+    "mouse control",
+    "windows mouse"
+  ],
+  "author": "mochen <mochen.china@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imochen/node-win-mouse-ctrl/issues"
+  },
+  "homepage": "https://github.com/imochen/node-win-mouse-ctrl#readme"
+}

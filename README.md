@@ -4,7 +4,7 @@ Fork from [https://github.com/wshxbqq/node-win-mouse](https://github.com/wshxbqq
 
 build with `node 10.14.0`
 
-## usege
+## usage
 
 `npm install win-mouse-ctrl --save`
 
